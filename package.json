@@ -1,17 +1,23 @@
 {
   "name": "babel-plugin-ng-component-module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Transforms the directive 'ngComponentModule' into a series of import/angular statements to lessen the amount of boilerplate.",
   "main": "src/index.js",
-  "author": {
-    "name": "Langdon Oliver",
-    "email": "langdon@gmail.com"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.15.0",
     "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.9.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.9.0"
-  }
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/langdonx/babel-plugin-ng-component-module.git"
+  },
+  "author": "Langdon Oliver <langdon@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/langdonx/babel-plugin-ng-component-module/issues"
+  },
+  "homepage": "https://github.com/langdonx/babel-plugin-ng-component-module#readme"
 }
