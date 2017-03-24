@@ -86,7 +86,7 @@ module.exports = ({ types }) => ({
                             types.callExpression(
                                 types.memberExpression(
                                     types.identifier(moduleVar),
-                                    types.identifier('component')
+                                    types.identifier('directive')
                                 ), [
                                     types.memberExpression(
                                         types.callExpression(
@@ -106,7 +106,7 @@ module.exports = ({ types }) => ({
                             types.callExpression(
                                 types.memberExpression(
                                     types.identifier(moduleVar),
-                                    types.identifier('directive')
+                                    types.identifier('component')
                                 ), [
                                     types.memberExpression(
                                         types.identifier(component.name),
