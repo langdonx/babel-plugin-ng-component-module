@@ -31,3 +31,6 @@ Using `'ngComponentModule'` inside `todo/index.js` will generate the following c
 - Maybe allow a comment (`/* ngComponentModule */`) in lieu of a directive
 - Maybe figure out how to add semicolons even though they're not necessary
 - Maybe figure out how to chain `.component()` calls off of `.module()` (hint: loop)
+
+# Note
+ - https://docs.npmjs.com/getting-started/publishing-npm-packages

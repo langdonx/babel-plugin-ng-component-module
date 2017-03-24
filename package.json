@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Transforms the directive 'ngComponentModule' into a series of import/angular statements to lessen the amount of boilerplate.",
   "main": "src/index.js",
+  "scripts": {
+    "lint": "node ./node_modules/eslint/bin/eslint.js src/index.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^3.15.0",
