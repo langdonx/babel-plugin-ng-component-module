@@ -89,13 +89,13 @@ module.exports = ({ types }) => ({
                                     types.identifier('directive')
                                 ), [
                                     types.memberExpression(
-                                        types.callExpression(
-                                            types.identifier(component.name),
-                                            []
-                                        ),
+                                        types.identifier(component.name),
                                         types.identifier('name')
                                     ),
-                                    types.identifier(component.name),
+                                    types.memberExpression(
+                                        types.identifier(component.name),
+                                        types.identifier('directive')
+                                    ),
                                 ]
                             )
                         );

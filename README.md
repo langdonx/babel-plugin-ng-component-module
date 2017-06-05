@@ -1,8 +1,8 @@
 # About
 
-I don't really want to write `import`, `export`, `angular.module`, and `angular.component` statements all day long. This plugin automatically generates those statements after inspecting the filesystem at compile time.
+Writing `import`, `export`, `angular.module`, and `angular.component` statements all day long is no fun. This plugin automatically generates those statements after inspecting the filesystem at compile time.
 
-It's being used in my [angular-2017-starter repo](https://github.com/langdonx/angularjs-2017-starter), where my components directory contains logically grouped components together that are lazy loaded on demand at runtime.
+It's being used in [angular-2017-starter repo](https://github.com/langdonx/angularjs-2017-starter), where the components directory contains logically grouped components together that are lazy loaded on demand at runtime.
 
 Given the following directory structure:
 
