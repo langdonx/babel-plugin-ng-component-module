@@ -38,7 +38,7 @@ module.exports = ({ types }) => ({
                     });
 
                 // create code!
-                const componentRootDirName = path.basename(componentRootDir);
+                const componentRootDirName = path.basename(componentRootDir).replace(/-([a-z])/g, s => s[1].toUpperCase());
                 const moduleVar = `${componentRootDirName}Module`;
 
                 // create import statements for each component
